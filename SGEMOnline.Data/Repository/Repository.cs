@@ -60,12 +60,9 @@ namespace SGEMOnline.Data.Repository
             return await DBContext.SaveChangesAsync();
         }
 
-
         public void Dispose()
         {
             DBContext?.Dispose();
-        }
-
-        
+        }        
     }
 }

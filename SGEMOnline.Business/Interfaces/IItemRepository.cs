@@ -5,7 +5,8 @@ using System.Text;
 
 namespace SGEMOnline.Business.Interfaces
 {
-    public interface IItemRepository : IRepository<Item>
+    public interface IItemRepository : IRepository<Item>, IDisposable
     {
+        
     }
 }
